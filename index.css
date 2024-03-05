@@ -168,7 +168,8 @@ section{
     flex-wrap: wrap;
 }
 .card-container {
-    background-color: #e1e7ec;
+    background-color: transparent;
+    border: 2px solid chocolate;
     border-radius: 10px;
     margin-bottom:14px;
     margin-right:14px;
@@ -241,10 +242,11 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:rgb(245, 242, 237);
+    background-color: transparent;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 15px;
+    border: 1px solid brown;
 }
 .card-images{
     width: 50px;
@@ -396,7 +398,6 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color:rgb(245, 242, 237);
         padding: 15px;
     }
     .demo{
